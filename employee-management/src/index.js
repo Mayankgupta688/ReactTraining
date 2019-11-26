@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import CssVariables from "./container/CssVariables"
+import TimerClassComponent from "./components/TimerClassComponent"
 
-ReactDOM.render(<CssVariables></CssVariables>, document.getElementById("root"))
+ReactDOM.render(<TimerClassComponent></TimerClassComponent>, document.getElementById("root"))
+
