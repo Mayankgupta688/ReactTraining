@@ -3,11 +3,12 @@ import React from 'react';
 export default class ClassComponent extends React.Component {
 
     constructor() {
+        super();
         this.state = {
             name: "MAyank",
             age: 10
         }
-        super();
+        
         
     }
 

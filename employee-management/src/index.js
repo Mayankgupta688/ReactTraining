@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import TimerClassComponent from "./components/TimerClassComponent"
+import ClassComponent from "./components/ClassComponent"
 
-ReactDOM.render(<TimerClassComponent></TimerClassComponent>, document.getElementById("root"))
+ReactDOM.render(<ClassComponent></ClassComponent>, document.getElementById("root"))
 
