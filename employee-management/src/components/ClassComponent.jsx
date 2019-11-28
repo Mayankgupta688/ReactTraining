@@ -8,8 +8,6 @@ export default class ClassComponent extends React.Component {
             name: "MAyank",
             age: 10
         }
-        
-        
     }
 
     render() {

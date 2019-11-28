@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import ClassComponent from "./components/ClassComponent"
+import ShouldComponentUpdate from "./components/ShouldComponentUpdate"
 
-ReactDOM.render(<ClassComponent></ClassComponent>, document.getElementById("root"))
+ReactDOM.render(<ShouldComponentUpdate></ShouldComponentUpdate>, document.getElementById("root"))
 
