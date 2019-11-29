@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import ShouldComponentUpdate from "./components/ShouldComponentUpdate"
+import {ManagerComponent, ResourceComponent} from "./routing/component/HigherOrderComponent"
 
-ReactDOM.render(<ShouldComponentUpdate></ShouldComponentUpdate>, document.getElementById("root"))
+import ApplicationContainer from "./routing/containers/ApplicationContainer"
 
+ReactDOM.render(<ManagerComponent></ManagerComponent>, document.getElementById("root"))

@@ -1,3 +1,7 @@
 #otherdiv {
     background-color: grey;
 }
+
+.selectedLink {
+    color: red;
+}
